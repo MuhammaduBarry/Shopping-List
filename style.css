@@ -1,0 +1,104 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #b08968;
+
+}
+
+.header-content {
+    text-align: right;
+    font-size: 1.5rem;
+}
+
+#a2,
+#a1{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-decoration: none;
+    color: black;
+    font-family: 'Vina Sans', sans-serif;
+}
+#a1:hover,
+#a2:hover{
+    color: #199f90;
+    text-decoration: underline;
+
+}
+.main-content {
+    text-align: center;
+    font-family: 'Vina Sans', sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 1.5rem;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+}
+
+#enterinput {
+    height: 3rem;
+    border-radius: .7rem;
+    outline: none;
+    width: 10rem;
+    font-family: 'Vina Sans', sans-serif;
+    font-size: 1.1rem;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+#enterbutton {
+    height: 3rem;
+    border-radius: .7rem;
+    width: 5rem;
+    font-family: 'Vina Sans', sans-serif;
+    font-size: 1.5rem;
+}
+
+
+
+.remove-button {
+    cursor: pointer;
+    font-size: 2rem;
+    color: black;
+    border: none;
+    background: none;
+    margin-left: 10px;
+}
+
+.remove-button:hover {
+    color: red
+}
+
+.list-parent {
+    text-align: center;
+    list-style-position: inside;
+    margin: 1rem 0;
+    width: 100%;
+}
+
+.li-style {
+    box-sizing: border-box;
+    white-space: nowrap;
+    width: min-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 2rem;
+    padding: .1rem .9em;
+    border: .25rem solid black;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.li-style:hover {
+    background-color: #c9aa90;
+}
